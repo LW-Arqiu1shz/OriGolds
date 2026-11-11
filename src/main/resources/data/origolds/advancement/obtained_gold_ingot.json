@@ -1,0 +1,31 @@
+{
+  "parent": "origolds:origolds/root",
+  "criteria": {
+    "obtained_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "origolds:gilding_i",
+      "origolds:gilding_ii",
+      "origolds:gilding_iii",
+      "origolds:origold_coating_smithing_template",
+      "origolds:origold_mold",
+      "origolds:compound_origold_mold",
+      "origolds:polyfusive_origold_mold",
+      "origolds:origold_coating",
+      "origolds:compound_origold_coating",
+      "origolds:polyfusive_origold_coating",
+      "origolds:magigold_core",
+      "origolds:enchanted_golden_apple"
+    ]
+  }
+}

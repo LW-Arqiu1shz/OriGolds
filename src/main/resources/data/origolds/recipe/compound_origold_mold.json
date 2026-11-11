@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "DMD",
+    "DDD"
+  ],
+  "key": {
+    "D": { "item": "minecraft:diamond" },
+    "M": { "item": "origolds:origold_mold" }
+  },
+  "result": {
+    "id": "origolds:compound_origold_mold"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "origolds:origolds/forging_the_heart",
+  "display": {
+    "icon": {
+      "id": "origolds:origold_coatboard"
+    },
+    "title": {
+      "translate": "advancements.origolds.the_gilded_age.title"
+    },
+    "description": {
+      "translate": "advancements.origolds.the_gilded_age.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first_gilded_gear": {
+      "trigger": "origolds:gilding_state",
+      "conditions": {
+        "min_level": 1,
+        "any": true
+      }
+    }
+  }
+}

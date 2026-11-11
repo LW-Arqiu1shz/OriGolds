@@ -1,0 +1,27 @@
+{
+  "parent": "origolds:origolds/gold_upon_gold",
+  "display": {
+    "icon": {
+      "id": "origolds:polyfusive_origold_coatboard"
+    },
+    "title": {
+      "translate": "advancements.origolds.shiny_shiny_gild.title"
+    },
+    "description": {
+      "translate": "advancements.origolds.shiny_shiny_gild.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gilded_to_level_3": {
+      "trigger": "origolds:gilding_state",
+      "conditions": {
+        "min_level": 3,
+        "any": true
+      }
+    }
+  }
+}

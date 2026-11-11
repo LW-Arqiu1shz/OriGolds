@@ -1,0 +1,48 @@
+{
+  "parent": "origolds:origolds/gilded_hands",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "advancements.origolds.gilding_mastery.title"
+    },
+    "description": {
+      "translate": "advancements.origolds.gilding_mastery.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "full_gilded_kit": {
+      "trigger": "origolds:gilding_state",
+      "conditions": {
+        "min_level": 3,
+        "tools": [
+          "sword",
+          "pickaxe",
+          "axe"
+        ],
+        "armor": true
+      }
+    },
+    "eat_enchanted_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:enchanted_golden_apple"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "full_gilded_kit"
+    ],
+    [
+      "eat_enchanted_apple"
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "origolds:magigold_core" }
+  ],
+  "result": {
+    "id": "origolds:origold_coating_smithing_template",
+    "count": 4
+  }
+}

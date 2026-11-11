@@ -1,0 +1,27 @@
+{
+  "parent": "origolds:origolds/shiny_shiny_gild",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {
+      "translate": "advancements.origolds.shiny_protection.title"
+    },
+    "description": {
+      "translate": "advancements.origolds.shiny_protection.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gilded_armor": {
+      "trigger": "origolds:gilding_state",
+      "conditions": {
+        "min_level": 3,
+        "armor": true
+      }
+    }
+  }
+}
