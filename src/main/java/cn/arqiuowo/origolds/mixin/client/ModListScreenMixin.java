@@ -17,8 +17,9 @@ public abstract class ModListScreenMixin {
         return OrigoldsModListNames.displayName(info, original.call(info));
     }
 
-    /** reloadMods 里的搜索过滤 lambda：中文界面下搜英文原名也能命中。 */
-    @WrapOperation(method = "lambda$reloadMods$0",
+    /** reloadMods 里的搜索过滤 lambda：中文界面下搜英文原名也能命中。
+     * require = 0：其它 NeoForge 小版本的 lambda 编号可能不同，挂不上时只会少掉"双名搜索"，不会让游戏启动失败。 */
+    @WrapOperation(method = "lambda$reloadMods$0", require = 0,
             at = @At(value = "INVOKE", target = "Lnet/neoforged/neoforgespi/language/IModInfo;getDisplayName()Ljava/lang/String;"))
     private String origolds$searchBothNames(IModInfo info, Operation<String> original) {
         return OrigoldsModListNames.searchName(info, original.call(info));
