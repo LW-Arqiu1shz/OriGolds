@@ -1,0 +1,30 @@
+{
+  "parent": "origolds:origolds/root",
+  "display": {
+    "icon": {
+      "id": "origolds:magigold_core"
+    },
+    "title": {
+      "translate": "advancements.origolds.forging_the_heart.title"
+    },
+    "description": {
+      "translate": "advancements.origolds.forging_the_heart.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_magigold_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "origolds:magigold_core"
+          }
+        ]
+      }
+    }
+  }
+}

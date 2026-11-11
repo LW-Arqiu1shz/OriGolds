@@ -1,0 +1,31 @@
+{
+  "parent": "origolds:origolds/shiny_shiny_gild",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "advancements.origolds.gilded_hands.title"
+    },
+    "description": {
+      "translate": "advancements.origolds.gilded_hands.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gilded_tools": {
+      "trigger": "origolds:gilding_state",
+      "conditions": {
+        "min_level": 3,
+        "tools": [
+          "sword",
+          "pickaxe",
+          "axe"
+        ]
+      }
+    }
+  }
+}

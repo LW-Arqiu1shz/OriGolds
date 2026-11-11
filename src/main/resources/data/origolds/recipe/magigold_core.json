@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "GLG",
+    " G "
+  ],
+  "key": {
+    "G": "minecraft:gold_block",
+    "L": "minecraft:lapis_block"
+  },
+  "result": {
+    "id": "origolds:magigold_core"
+  }
+}

@@ -1,0 +1,4 @@
+pluginManagement {
+    repositories { gradlePluginPortal(); maven { url = 'https://maven.neoforged.net/releases' } }
+}
+rootProject.name = 'origolds-26.1.2NeoForge'

@@ -1,0 +1,26 @@
+{
+  "parent": "origolds:origolds/forging_the_heart",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "advancements.origolds.revival_of_god_apple.title"
+    },
+    "description": {
+      "translate": "advancements.origolds.revival_of_god_apple.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_enchanted_golden_apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "origolds:enchanted_golden_apple"
+      }
+    }
+  }
+}
