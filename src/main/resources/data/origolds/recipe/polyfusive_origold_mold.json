@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "DMD",
+    "DDD"
+  ],
+  "key": {
+    "D": "minecraft:netherite_scrap",
+    "M": "origolds:compound_origold_mold"
+  },
+  "result": {
+    "id": "origolds:polyfusive_origold_mold"
+  }
+}

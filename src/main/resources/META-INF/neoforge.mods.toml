@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Arqiu-owo"
+logoFile="cover.png"
+description='''让金制装备不再垃圾，让镀金大法重出江湖，让附魔苹果成功复活。让金子再次伟大！
+Buffs vanilla golden gears, adds gilding system for your gears,  revives the enchanted golden apple. M.G.G.A. for Make Gold Great Again!'''
+
+[[mixins]]
+config = "origolds.mixins.json"
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
