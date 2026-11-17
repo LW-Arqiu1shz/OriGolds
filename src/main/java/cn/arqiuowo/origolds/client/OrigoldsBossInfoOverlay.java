@@ -30,7 +30,7 @@ public final class OrigoldsBossInfoOverlay {
     private static final int PLAYER_INFO_LINE_LIFT = 4;
     /** 本行相对动作栏再往上抬的距离。 */
     private static final int BOSS_INFO_LINE_GAP = 9;
-    private static final int DEFAULT_COLOR = 0xFFFFFF;
+    private static final int DEFAULT_COLOR = 0xFFFFFFFF; // ARGB: 26.x skips text with alpha 0
     private static final Identifier LAYER_ID = Identifier.fromNamespaceAndPath(OriGolds.MOD_ID, "boss_info");
 
     private static volatile Component message;
